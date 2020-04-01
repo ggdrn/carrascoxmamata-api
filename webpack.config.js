@@ -22,7 +22,6 @@ module.exports = {
       "@": path.resolve(__dirname, "src/")
     }
   },
-  devtool: "sourcemap",
   module: {
     rules: [
       {
@@ -35,9 +34,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [],
-  devServer: {
-    compress: true,
-    filename: "index.js"
-  }
+  plugins: []
 };
