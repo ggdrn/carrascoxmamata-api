@@ -1,4 +1,4 @@
-import { sendApiStatus } from "@/controllers/main";
+import { sendApiStatus } from "Controllers/main";
 
 export default (router) => {
   router.get("/", sendApiStatus);

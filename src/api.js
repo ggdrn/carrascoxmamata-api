@@ -2,7 +2,7 @@ import express from "express";
 import helmet from "helmet";
 import cors from "cors";
 
-import routes from "@/routes";
+import routes from "Routes";
 
 const app = express();
 
