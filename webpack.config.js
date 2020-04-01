@@ -19,7 +19,11 @@ module.exports = {
   externals: [nodeExternals()], // Need this to avoid error when working with Express
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src/")
+      "@": path.resolve(__dirname, "src"),
+      "Controllers": path.resolve(__dirname, "src", "controllers"),
+      "Middlewares": path.resolve(__dirname, "src", "middlewares"),
+      "Routes": path.resolve(__dirname, "src", "routes"),
+      "Services": path.resolve(__dirname, "src", "services"),
     }
   },
   module: {
