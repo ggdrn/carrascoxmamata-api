@@ -7,8 +7,8 @@ import routes from "@/routes";
 const app = express();
 
 // SETING MIDDLEWARES
-app.use(helmet());
-app.use(cors());
+app.use(helmet()); // SEE MORE ON https://www.npmjs.com/package/helmet
+app.use(cors()); // SEE MORE ON https://www.npmjs.com/package/cors
 app.disable("x-powered-by");
 
 // MAPING ROUTES
