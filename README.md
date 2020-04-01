@@ -1,5 +1,5 @@
 # Firebase Functions Simple API
-#### A simple sample of a firebase function api with Webpack, Babel, Eslint and Dotenv
+#### A simple sample of a firebase function api with Express, Webpack, Babel, Eslint and Dotenv
 
 ## SETUP
 - Clear your `functions` folder
