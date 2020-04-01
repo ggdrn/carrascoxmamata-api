@@ -1,4 +1,4 @@
 node_modules/
-index.js
+/index.js
 firebase-debug.log
 package-lock.json
