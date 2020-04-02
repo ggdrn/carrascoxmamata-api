@@ -7,7 +7,7 @@ import routes from "Routes";
 
 const app = express();
 
-// SETING MIDDLEWARES
+// SETING GLOBAL MIDDLEWARES
 app.use(bodyParser.json()); // SEE MORE ON https://www.npmjs.com/package/body-parser
 app.use(bodyParser.urlencoded({ extended: true })); // SEE MORE ON https://www.npmjs.com/package/body-parser
 app.use(helmet()); // SEE MORE ON https://www.npmjs.com/package/helmet
