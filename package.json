@@ -7,9 +7,9 @@
     "shell": "firebase functions:shell",
     "deploy": "npm run build && firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "build-dev": "webpack -d --watch --mode development",
+    "build-dev": "NODE_ENV=development webpack -d --watch --mode development",
     "dev": "concurrently \"npm:build-dev\" \"npm:serve\" ",
-    "build": "webpack --mode production",
+    "build": "NODE_ENV=production webpack --mode production",
     "start": "npm run shell"
   },
   "engines": {
@@ -43,5 +43,11 @@
     "webpack-cli": "^3.3.11",
     "webpack-node-externals": "^1.7.2"
   },
-  "private": true
+  "private": true,
+  "functionsUrl": {
+    "api": {
+      "development": "http://localhost:5001/testing-node-webpack/us-central1/api",
+      "production": ""
+    }
+  }
 }

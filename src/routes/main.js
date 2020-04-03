@@ -5,6 +5,7 @@ export default (router) => {
   // router.use(myCustomMiddleware)
 
   // ROUTER ROUTES
+  // See more about swagger documentation structure here https://swagger.io/docs/specification/basic-structure/
   /**
    * @swagger
    * /:
@@ -12,7 +13,7 @@ export default (router) => {
    *    description: Return the api status
    *    responses:
    *      '200':
-   *         description: A ssuccess response
+   *         description: A string with API status
    */
   router.get("/", sendApiStatus);
   return router;

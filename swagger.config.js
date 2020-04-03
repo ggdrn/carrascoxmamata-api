@@ -1,4 +1,6 @@
-const { description, version } = require("./package.json");
+const env = process.env.NODE_ENV;
+const { description, version, functionsUrl } = require("./package.json");
+
 module.exports = {
   swagger: {
     openapi: "3.0.3",
@@ -15,8 +17,11 @@ module.exports = {
       //   name: "Apache 2.0",
       //   url: "https://www.apache.org/licenses/LICENSE-2.0.html"
       // },
-      version
+      version,
     },
+    servers: [{
+      url: functionsUrl.api[env]
+    }]
   },
   // Print the swagger.json readably.
   prettyJson: true,
