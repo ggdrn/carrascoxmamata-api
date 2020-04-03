@@ -1,5 +1,6 @@
 const path = require("path");
 const nodeExternals = require("webpack-node-externals");
+const SwaggerJsdocSyncWebpackPlugin = require("swagger-jsdoc-sync-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -19,6 +20,7 @@ module.exports = {
   externals: [nodeExternals()], // Need this to avoid error when working with Express
   resolve: {
     alias: {
+      "~": path.resolve(__dirname),
       "@": path.resolve(__dirname, "src"),
       "Controllers": path.resolve(__dirname, "src", "controllers"),
       "Middlewares": path.resolve(__dirname, "src", "middlewares"),
@@ -39,5 +41,7 @@ module.exports = {
       }
     ]
   },
-  plugins: []
+  plugins: [
+    new SwaggerJsdocSyncWebpackPlugin(require("./swagger.config")),
+  ],
 };

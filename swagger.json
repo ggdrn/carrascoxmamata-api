@@ -1,0 +1,28 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Sample Firebase Functions API",
+    "description": "This is a sample API for Firebase Functions.",
+    "termsOfService": "http://example.com/terms/",
+    "contact": {
+      "name": "API Support",
+      "url": "http://www.example.com/support",
+      "email": "support@example.com"
+    },
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "description": "Return the api status",
+        "responses": {
+          "200": {
+            "description": "A ssuccess response"
+          }
+        }
+      }
+    }
+  },
+  "components": {},
+  "tags": []
+}

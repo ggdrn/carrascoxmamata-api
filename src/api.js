@@ -1,8 +1,10 @@
+// IMPORTING MODULES
 import express from "express";
 import bodyParser from "body-parser";
 import helmet from "helmet";
 import cors from "cors";
 
+// IMPORTING FILES
 import routes from "Routes";
 
 const app = express();
@@ -19,6 +21,5 @@ routes.forEach(({ path, route }) => {
   const router = express.Router();
   app.use(path, route(router));
 });
-
 
 export default app;
