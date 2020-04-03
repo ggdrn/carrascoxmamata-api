@@ -15,7 +15,13 @@
 
 - Run `git remote remove origin` to remove this remote repository
 
+- Change the field `functionsUrl` in the `package.json` with your api url
+
 ## Scripts
 - `npm run dev` for development
 
 - `npm run build` for production
+
+## Features
+
+- You can check the api documentation on `/api/docs` path
