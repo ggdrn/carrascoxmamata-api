@@ -1,5 +1,5 @@
 # Firebase Functions Simple API
-#### A simple sample of a firebase function api with Express, Webpack, Babel, Eslint and Dotenv
+#### A simple sample of a firebase function api with Express, Webpack, Babel, Eslint, Dotenv and Swagger
 
 ## PREREQUISITES
 - Node version `v10.18.1` (you can use `nvm` to manage your node version, know more in https://github.com/nvm-sh/nvm)
