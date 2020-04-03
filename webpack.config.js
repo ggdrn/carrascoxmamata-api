@@ -24,6 +24,7 @@ module.exports = {
       "Middlewares": path.resolve(__dirname, "src", "middlewares"),
       "Routes": path.resolve(__dirname, "src", "routes"),
       "Services": path.resolve(__dirname, "src", "services"),
+      "Utils": path.resolve(__dirname, "src", "utils"),
     }
   },
   module: {
