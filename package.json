@@ -24,7 +24,7 @@
     "firebase-functions": "^3.3.0",
     "helmet": "^3.22.0",
     "swagger-jsdoc": "^4.0.0",
-    "swagger-ui-express": "^4.1.4"
+    "swagger-ui-express-functions": "^4.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

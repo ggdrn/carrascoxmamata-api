@@ -1,4 +1,4 @@
-import swaggerUi from "swagger-ui-express";
+import swaggerUi from "swagger-ui-express-functions";
 import injectSwaggerDoc from "Middlewares/inject-swagger-doc";
 
 export default (router) => {
