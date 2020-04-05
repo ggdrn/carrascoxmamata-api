@@ -10,7 +10,9 @@ export default (router) => {
    * @swagger
    * /:
    *  get:
-   *    description: Return the api status
+   *    summary: Return the api status
+   *    tags:
+   *      - Main
    *    responses:
    *      '200':
    *         description: A string with API status
