@@ -4,7 +4,7 @@ const SwaggerJsdocSyncWebpackPlugin = require("swagger-jsdoc-sync-webpack-plugin
 
 module.exports = {
   entry: {
-    server: ["babel-polyfill", "./main.js"],
+    server: ["@babel/polyfill", "./main.js"],
   },
   output: {
     path: path.join(__dirname),
