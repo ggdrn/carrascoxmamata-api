@@ -18,7 +18,7 @@
 - Change the field `functionsUrl` in the `package.json` with your api url
 
 ## Scripts
-- `npm run dev` for development
+- run `npm run build` and `npm run dev` for development
 
 - `npm run build` for production
 
