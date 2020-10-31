@@ -47,7 +47,7 @@
   "private": true,
   "functionsUrl": {
     "api": {
-      "development": "http://localhost:5001/testing-node-webpack/us-central1/api",
+      "development": "http://localhost:5001/carrascoxmamata/us-central1/api",
       "production": ""
     }
   }
