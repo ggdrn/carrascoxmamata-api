@@ -9,7 +9,7 @@
 ## SETUP
 - Clear your `functions` folder
 
-- Inside `functions` folder run `git clone https://github.com/diegofer25/firebase-function-api.git .` to clone http or `git clone git@github.com:diegofer25/firebase-function-api.git .` to clone with SSH.
+- Inside `functions` folder run `git clone https://github.com/ggdrn/carrascoxmamata-api.git .`
 
 - Run `npm i` to install the dependencies
 
